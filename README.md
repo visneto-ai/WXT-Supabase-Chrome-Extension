@@ -1,0 +1,1 @@
+# WXT-Supabase-Chrome-Extension
