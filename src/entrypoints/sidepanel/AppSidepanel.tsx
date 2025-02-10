@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { authService } from '@/lib/authService';
 import { User } from '@supabase/supabase-js';
+import '@/styles/theme.css';
 
 interface AuthResponse {
   status: 'success' | 'error' | 'no-auth';

@@ -8,9 +8,9 @@ import supabase from "./supabasescript";
  * @property {string} [type] - The type of authentication ('auth' or 'un-auth')
  */
 interface AuthResponse {
-  status: string;
-  message: any;
-  type?: string;
+  status: 'success' | 'error' | 'no-auth';
+  message: User | null | string;
+  type: 'auth' | 'un-auth';
 }
 
 /**

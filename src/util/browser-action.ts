@@ -110,9 +110,9 @@ export const updateIcon = async (
     // Clear any existing timer
     // Store the current timer ID to clear it if needed
     // Store the current timer ID to clear it if needed
-    if (typeof resetTimer !== 'undefined') {
-      clearTimeout(resetTimer);
-    }
+    // if (typeof resetTimer !== 'undefined') {
+    //   clearTimeout(resetTimer);
+    // }
 
     const { icon, title } = NOTIFICATION_MAP[type];
     
